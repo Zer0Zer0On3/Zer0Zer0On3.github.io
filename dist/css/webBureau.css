@@ -1,2 +1,9 @@
-/* in stylish-portfolio.min.css wijzig je NIETS */
-/* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+* {
+    font-family:"Cracked Johnnie" ;
+    src: url(../fonts/CRACJ___.TTF);
+}
+
+h1 {
+    font-family:"Cracked Johnnie" ;
+    src: url(../fonts/CRACJ___.TTF);
+}
