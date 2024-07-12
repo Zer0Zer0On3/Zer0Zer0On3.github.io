@@ -1,4 +1,42 @@
 @import url('../fonts/CRACJ___.TTF');
+@media only screen and (min-width: 640px) {
+	h1 {
+		background-image: url(https://i.gifer.com/DuXi.gif);
+		background-size: cover;
+		color: transparent;
+		background-clip: text;
+		-moz-background-clip: text;
+		-webkit-background-clip: text;
+		text-transform: uppercase;
+		margin: 10px 0;
+		font-size: 65px;
+	}
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+	h1 {
+		background-image: url(https://i.gifer.com/DuXi.gif);
+		background-size: cover;
+		color: transparent;
+		background-clip: text;
+		-moz-background-clip: text;
+		-webkit-background-clip: text;
+		text-transform: uppercase;
+		margin: 10px 0;
+		font-size: 140px;
+	}
+}
 
 
 body {
@@ -27,6 +65,7 @@ h1 {
 	background-image: url(https://i.gifer.com/DuXi.gif);
 	background-size: cover;
 	color: transparent;
+	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
@@ -36,6 +75,7 @@ h1 {
     background-image: url(https://i.gifer.com/fxp0.gif);
 	background-size: cover;
 	color: transparent;
+	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
@@ -71,6 +111,7 @@ h5 {
 	background-image: url(https://i.gifer.com/fxp0.gif);
 	background-size: cover;
 	color: transparent;
+	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
@@ -81,33 +122,3 @@ h5 {
 /* Default: Extra-small devices such as small phones (less than 640px) */
 
 /* Small devices such as large phones (640px and up) */
-@media only screen and (min-width: 640px) {
-	h1 {
-		background-image: url(https://i.gifer.com/DuXi.gif);
-		background-size: cover;
-		color: transparent;
-		-moz-background-clip: text;
-		-webkit-background-clip: text;
-		text-transform: uppercase;
-		margin: 10px 0;
-		font-size: 65px;
-}
-
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 1024px) {...}
-
-/* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 1280px) {
-	h1 {
-		background-image: url(https://i.gifer.com/DuXi.gif);
-		background-size: cover;
-		color: transparent;
-		-moz-background-clip: text;
-		-webkit-background-clip: text;
-		text-transform: uppercase;
-		margin: 10px 0;
-		font-size: 140px;
-}
